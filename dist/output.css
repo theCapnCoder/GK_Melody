@@ -516,6 +516,107 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mb-\[5px\] {
+  margin-bottom: 5px;
+}
+
+.mr-\[37px\] {
+  margin-right: 37px;
+}
+
+.mr-\[59px\] {
+  margin-right: 59px;
+}
+
+.mt-\[200px\] {
+  margin-top: 200px;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-\[15px\] {
+  gap: 15px;
+}
+
+.bg-lightgray {
+  --tw-bg-opacity: 1;
+  background-color: rgb(215 215 215 / var(--tw-bg-opacity));
+}
+
+.px-\[81px\] {
+  padding-left: 81px;
+  padding-right: 81px;
+}
+
+.py-\[56px\] {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.pt-\[50px\] {
+  padding-top: 50px;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .text_h2 {
   font-family: 'Bebas Neue';
   font-style: normal;
@@ -547,6 +648,15 @@ video {
   color: #FFFFFF;
 }
 
+.text_h5 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #635854;
+}
+
 .container {
-  min-width: 1440px;
+  max-width: 1440px;
 }
