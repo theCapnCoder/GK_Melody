@@ -24,6 +24,10 @@
   color: #635854;
 }
 
+.text_h3_white {
+  color: #FFFFFF;
+}
+
 .text_h4 {
   font-family: 'Roboto';
   font-style: normal;
@@ -33,8 +37,9 @@
   color: #635854;
 }
 
-.text_h4.dark {
+.text_h4_white {
   color: #FFFFFF;
+  text-align: center;
 }
 
 .text_h5 {
@@ -44,8 +49,14 @@
   font-size: 14px;
   line-height: 16px;
   color: #635854;
+  text-align: center;
+}
+
+.text_h5_white {
+  color: #FFFFFF;
 }
 
 .container {
   max-width: 1440px;
+  margin: auto;
 }
