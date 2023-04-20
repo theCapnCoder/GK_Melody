@@ -793,6 +793,10 @@ video {
   padding-top: 60px;
 }
 
+.text-start {
+  text-align: start;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -885,7 +889,6 @@ video {
   font-size: 14px;
   line-height: 16px;
   color: #635854;
-  text-align: center;
 }
 
 .text_h5_white {
