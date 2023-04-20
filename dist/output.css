@@ -793,10 +793,6 @@ video {
   padding-top: 60px;
 }
 
-.text-start {
-  text-align: start;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -920,6 +916,11 @@ video {
   font-size: 104px;
   line-height: 19px;
   color: #635854;
+}
+
+.selected {
+  color: #3596F5;
+  text-decoration: underline;
 }
 
 /* PopUp */

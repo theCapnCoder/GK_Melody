@@ -115,6 +115,11 @@
   color: #635854;
 }
 
+.selected {
+  color: #3596F5;
+  text-decoration: underline;
+}
+
 /* PopUp */
 
 .overlay {
